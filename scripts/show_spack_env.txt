@@ -1,0 +1,11 @@
+# add this to your bashrc with nano ~/.bashrc
+# then run source ~/.bashrc
+source /home/...user.../spack/share/spack/setup-env.sh
+
+get_spack_env() {
+    local status_output
+    status_output=$(spack env status)
+    if [[ "$status_output" == *"In environment mlperf-env"* ]]; then
+        echo "(mlperf-env)"
+    fi
+}
