@@ -1,6 +1,4 @@
 # SCC24
-## Shared repo for cluster set-up and application run scripts and documentation
-
 
 ### Documentation
 Directory for information about our cluster
@@ -10,7 +8,7 @@ Directory for information about our cluster
 Directory for and cluster configuration scripts
 
 
-
+### Task Breakdown
 - **Icon**
   - Main: Ben  
   - Secondary: Marcus
