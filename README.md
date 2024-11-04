@@ -1,14 +1,12 @@
 # SCC24
 
-### Documentation
+## Documentation
 Directory for information about our cluster
 
-
-### Cluster Configuration
+## Cluster Configuration
 Directory for and cluster configuration scripts
 
-
-### Task Breakdown
+## Task Breakdown
 - **Icon**
   - Main: Ben  
   - Secondary: Marcus
