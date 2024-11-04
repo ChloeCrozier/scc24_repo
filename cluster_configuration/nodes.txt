@@ -1,0 +1,6 @@
+athena
+artemis
+gaia
+theia
+hades
+hercules
