@@ -6,4 +6,4 @@
 	- Select `SSH and GPG keys`
 	- Click on `New SSH key`
 	- Paste in your `cat ~/.ssh/{..filename..}.pub`
-
+4. You can test your connection with `ssh -T git@github.com`
