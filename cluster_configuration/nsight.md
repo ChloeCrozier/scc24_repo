@@ -10,7 +10,7 @@
 
 To verify that **Nsight Compute** is correctly installed, run:
 
-/share/software/nsight/ncu --version
+```/share/software/nsight/ncu --version```
 
 This should return the installed version of **Nsight Compute**.
 
