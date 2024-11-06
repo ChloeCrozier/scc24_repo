@@ -22,7 +22,7 @@ This should return the installed version of **Nsight Compute**.
 
 To profile a CUDA application, run:
 
-/share/software/nsight/ncu --target-processes all ./your_cuda_application
+```/share/software/nsight/ncu --target-processes all ./your_cuda_application```
 
 This will profile the application and collect all GPU performance metrics.
 
@@ -30,7 +30,7 @@ This will profile the application and collect all GPU performance metrics.
 
 You can specify which metrics to collect using the --metrics flag. For example, to collect the average number of cycles and executed instructions:
 
-/share/software/nsight/ncu --metrics sm__cycles_elapsed.avg,sm__inst_executed.avg ./your_cuda_application
+```/share/software/nsight/ncu --metrics sm__cycles_elapsed.avg,sm__inst_executed.avg ./your_cuda_application```
 
 Replace ./your_cuda_application with the path to your CUDA application.
 
@@ -38,7 +38,7 @@ Replace ./your_cuda_application with the path to your CUDA application.
 
 To profile multiple applications or processes simultaneously, you can specify the --target-processes option. For example:
 
-/share/software/nsight/ncu --target-processes all ./your_cuda_application_1 ./your_cuda_application_2
+```/share/software/nsight/ncu --target-processes all ./your_cuda_application_1 ./your_cuda_application_2```
 
 This will profile both applications at the same time.
 
@@ -46,7 +46,7 @@ This will profile both applications at the same time.
 
 You can save the profiling results to a file using the --output flag:
 
-/share/software/nsight/ncu --target-processes all --output my_results ./your_cuda_application
+```/share/software/nsight/ncu --target-processes all --output my_results ./your_cuda_application```
 
 This will create a file called my_results.ncu-rep with the profiling data.
 
@@ -58,7 +58,7 @@ This will create a file called my_results.ncu-rep with the profiling data.
 
 To list all available metrics that you can collect during profiling, run:
 
-/share/software/nsight/ncu --metrics-list
+```/share/software/nsight/ncu --metrics-list```
 
 This will display a list of all available performance metrics.
 
@@ -66,7 +66,7 @@ This will display a list of all available performance metrics.
 
 To view all available options and commands, run:
 
-/share/software/nsight/ncu --help
+```/share/software/nsight/ncu --help```
 
 This will provide a comprehensive list of options you can use with **Nsight Compute**.
 
@@ -76,7 +76,7 @@ This will provide a comprehensive list of options you can use with **Nsight Comp
 
 To uninstall **Nsight Compute**, delete the installation directory:
 
-sudo rm -rf /share/software/nsight
+```sudo rm -rf /share/software/nsight```
 
 This will remove **Nsight Compute** from the system.
 
