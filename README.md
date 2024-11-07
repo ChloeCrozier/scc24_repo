@@ -1,13 +1,13 @@
 # SCC24
 
 ## Documentation
-Directory for information about our cluster
+Information about our cluster and resources about our security plans
 
 ## Cluster Configuration
 Cluster configuration scripts and debugging guides
 
 ## Results
-Directory for output of running benchmarks and applications
+Output of running benchmarks and applications
 
 ## Task Breakdown
 - **Icon**
