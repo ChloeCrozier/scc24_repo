@@ -58,7 +58,7 @@ This will create a file called my_results.ncu-rep with the profiling data.
 
 To list all available metrics that you can collect during profiling, run:
 
-```/share/software/nsight/ncu --metrics-list```
+```/share/software/nsight/ncu --query-metrics```
 
 This will display a list of all available performance metrics.
 
