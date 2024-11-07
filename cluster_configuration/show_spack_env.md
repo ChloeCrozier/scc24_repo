@@ -1,6 +1,7 @@
-# add this to your bashrc with nano ~/.bashrc
-# then run source ~/.bashrc
-```if [ -z "$SPACK_ROOT" ]; then
+# 1. Add this to your bashrc with `nano ~/.bashrc`
+
+```
+if [ -z "$SPACK_ROOT" ]; then
     source /home/chloe/spack/share/spack/setup-env.sh
 fi
 
@@ -12,4 +13,6 @@ get_spack_env() {
     fi
 }
 
-PS1='[\u@\h \W]$(get_spack_env) $ '```
+PS1='[\u@\h \W]$(get_spack_env) $ '
+```
+# 2. Then run `source ~/.bashrc`
