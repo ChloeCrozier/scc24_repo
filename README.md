@@ -4,7 +4,7 @@
 Directory for information about our cluster
 
 ## Cluster Configuration
-Directory for and cluster configuration scripts
+Cluster configuration scripts and debugging guides
 
 ## Results
 Directory for output of running benchmarks and applications
