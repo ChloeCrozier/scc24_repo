@@ -12,5 +12,3 @@ nvidia-smi
 # Test GPU setup in Docker
 echo "Testing GPU setup with Docker:"
 docker run --gpus all hello-world
-y
-
