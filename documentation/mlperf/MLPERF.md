@@ -11,7 +11,7 @@
     - If you run into problems with this, run:
        - `sudo systemctl daemon-reload`
        - `sudo systemctl restart docker`
-5. Run `./get_interactive_container`
+5. Run `./base_basic_command.sh`
 6. Once you are in the container, run `./tmp-run.sh`
    - You may need to fix `sys.path.insert("..", 0)` to `sys.path.insert(0, "..")` in `/root/CM/repos/local/cache/69252d080a244bfc/inference/text_to_image/tools/fid/fid_score.py`
    - You may need to run with additional flags `/home/cmuser/venv/cm/bin/python3 main.py --scenario Offline --profile stable-diffusion-xl-pytorch --dataset coco-1024 --dataset-path /root/CM/repos/local/cache/3ae5be25ec254df3/install --dtype fp16 --device cuda --threads 1 --user_conf '/root/CM/repos/mlcommons@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/ca119aba028240afa7f69ee72724bae9.conf' --output /cm-mount/share/competition/mlperf/test_results/9e528a0503c6-reference-gpu-pytorch-v2.5.1-scc24-base_cu124/stable-diffusion-xl/offline/performance/run_1 --model-path /root/CM/repos/local/cache/a17af1c021c14272/stable_diffusion_fp16 --max-batchsize 1 --ids-path /root/CM/repos/local/cache/3ae5be25ec254df3/install/sample_ids.txt --adr.mlperf-implementation.tags=_branch.dev --adr.mlperf-implementation.version=custom`
