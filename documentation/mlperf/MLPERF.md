@@ -1,5 +1,4 @@
 1. Install
-    - `cm init`
     - `pip install cm4mlops`
     - `pip install tabulate`
     - `pip install tabulate`
