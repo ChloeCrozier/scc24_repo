@@ -1,0 +1,12 @@
+cm run script --tags=generate,inference,submission \
+   --clean \
+   --run-checker \
+   --tar=yes \
+   --env.CM_TAR_OUTFILE=submission.tar.gz \
+   --division=open \
+   --category=datacenter \
+   --env.CM_DETERMINE_MEMORY_CONFIGURATION=yes \
+   --run_style=test \
+   --adr.submission-checker.tags=_short-run \
+   --quiet \
+   --submitter=CyberTigers

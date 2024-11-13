@@ -1,0 +1,5 @@
+cm run script --tags=push,github,mlperf,inference,submission \
+   --repo_url=https://github.com/<myfork>/cm4mlperf-inference \
+   --repo_branch=mlperf-inference-results-scc24 \
+   --commit_message="Results on system <HW Name>" \
+   --quiet
