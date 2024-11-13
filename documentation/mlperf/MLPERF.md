@@ -6,7 +6,7 @@
     - `sudo yum install -y nvidia-container-toolkit`
 
 2. Set up the python virtual environment with `python3 -m venv cm`
-3. Run `setup_mlperf.sh`
+3. Run `source cm/bin/activate` and `cm init`
 4. Ensure docker works with GPUs by running `docker run --gpus all hello-world`
     - If you run into problems with this, run:
        - `sudo systemctl daemon-reload`
