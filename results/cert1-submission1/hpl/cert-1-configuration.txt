@@ -1,0 +1,17 @@
+1. olympus
+2. Dell PowerEdge XE8545
+3. Dell
+4. 5
+5. AMD EPYC 7763 64-Core Processor
+6. 2
+7. 96
+8. 2399.878
+9. NVIDIA iA100 PCIe 40 GB
+10. 4 NVIDIA A100s in node 1 and 4 NVIDIA A100s in node 2
+11. 8 shader clusters per GPU
+12.  
+13. 32 shader clusters per node
+14. Rocky 9
+15. Mellanox Infiniband HDR
+16. 1000 GB
+17. containerized hpl obtained from https://catalog.ngc.nvidia.com/orgs/nvidia/containers/hpc-benchmarks, build with apptainer
