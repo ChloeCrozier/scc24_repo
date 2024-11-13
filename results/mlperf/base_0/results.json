@@ -1,0 +1,38 @@
+{
+    "accuracy_results": {
+        "CLIP_SCORE": 31.565391302108765,
+        "FID_SCORE": 237.9909058668899,
+        "scenario": "TestScenario.Offline"
+    },
+    "args": {
+        "accuracy": true,
+        "audit_conf": "audit.config",
+        "backend": "pytorch",
+        "count": 10,
+        "dataset": "coco-1024",
+        "dataset_path": "/root/CM/repos/local/cache/f636b09eff0748f9/install",
+        "debug": false,
+        "device": "cuda",
+        "dtype": "fp16",
+        "find_peak_performance": false,
+        "ids_path": "/root/CM/repos/local/cache/f636b09eff0748f9/install/sample_ids.txt",
+        "latent_framework": "torch",
+        "max_batchsize": 1,
+        "max_latency": null,
+        "model_name": "stable-diffusion-xl",
+        "model_path": "/root/CM/repos/local/cache/a6fe811736934517/stable_diffusion_fp16",
+        "output": "/root/CM/repos/local/cache/4102020eb30a4253/test_results/a2ba192e459e-reference-gpu-pytorch-v2.5.1-scc24-base_cu124/stable-diffusion-xl/offline/accuracy",
+        "performance_sample_count": 5000,
+        "profile": "stable-diffusion-xl-pytorch",
+        "qps": null,
+        "samples_per_query": 8,
+        "scenario": "Offline",
+        "threads": 1,
+        "time": null,
+        "user_conf": "/root/CM/repos/mlcommons@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/df32e933dbfa4aa5835e5c576b237387.conf"
+    },
+    "cmdline": "Namespace(dataset='coco-1024', dataset_path='/root/CM/repos/local/cache/f636b09eff0748f9/install', profile='stable-diffusion-xl-pytorch', scenario='Offline', max_batchsize=1, threads=1, accuracy=True, find_peak_performance=False, backend='pytorch', model_name='stable-diffusion-xl', output='/root/CM/repos/local/cache/4102020eb30a4253/test_results/a2ba192e459e-reference-gpu-pytorch-v2.5.1-scc24-base_cu124/stable-diffusion-xl/offline/accuracy', qps=None, model_path='/root/CM/repos/local/cache/a6fe811736934517/stable_diffusion_fp16', dtype='fp16', device='cuda', latent_framework='torch', user_conf='/root/CM/repos/mlcommons@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/df32e933dbfa4aa5835e5c576b237387.conf', audit_conf='audit.config', ids_path='/root/CM/repos/local/cache/f636b09eff0748f9/install/sample_ids.txt', time=None, count=10, debug=False, performance_sample_count=5000, max_latency=None, samples_per_query=8)",
+    "runtime": "pytorch-SUT",
+    "time": 1731507456,
+    "version": "2.5.1+cu124"
+}

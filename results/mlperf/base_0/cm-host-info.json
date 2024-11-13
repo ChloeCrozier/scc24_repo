@@ -1,0 +1,10 @@
+{
+  "os_version": "Linux-4.18.0-553.22.1.el8_10.x86_64-x86_64-with-glibc2.35",
+  "cpu_version": "x86_64",
+  "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+  "cm_version": "3.4.1",
+  "os_version_sys": "ubuntu 22.04",
+  "system_name": "a2ba192e459e",
+  "cm_repo_name": "mlcommons@cm4mlops",
+  "cm_repo_git_hash": "b8a91f1f3ad5f14389cf80be5dbf6764eab5c882"
+}
