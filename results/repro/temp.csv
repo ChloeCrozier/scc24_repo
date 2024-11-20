@@ -1,5 +1,5 @@
-"('ALL.chr1.250000.vcf', 'individuals_ID0000002')" 28.71
 "('ALL.chr1.250000.vcf', 'individuals_ID0000001')" 22.86
+"('ALL.chr1.250000.vcf', 'individuals_ID0000002')" 22.86
 "('ALL.chr1.250000.vcf', 'individuals_ID0000004')" 22.86
 "('ALL.chr1.250000.vcf', 'individuals_ID0000003')" 22.86
 "('ALL.chr1.phase3_shapeit2_mvncall_integrated_v5.20130502.sites.annotation.vcf', 'sifting_ID0000006')" 14.22
@@ -42,7 +42,7 @@
 "('chr1n.tar.gz', 'mutation_overlap_ID0000017')" 0.0
 "('individuals_merge_ID0000005', 'chr1n.tar.gz')" 0.0
 "('AFR.txt', 'frequency_ID0000016')" 0.0
-"('chr1n-4-5.tar.gz', 'individuals_merge_ID0000005')" 0.0
+"('chr1n.tar.gz', 'mutation_overlap_ID0000015')" 0.0
 "('chr1n-3-4.tar.gz', 'individuals_merge_ID0000005')" 0.0
 "('individuals_ID0000003', 'chr1n-3-4.tar.gz')" 0.0
 "('chr1n.tar.gz', 'mutation_overlap_ID0000009')" 0.0
@@ -56,9 +56,9 @@
 "('ALL.txt', 'mutation_overlap_ID0000019')" 0.0
 "('ALL.txt', 'frequency_ID0000020')" 0.0
 "('chr1n.tar.gz', 'mutation_overlap_ID0000013')" 0.0
-"('chr1n.tar.gz', 'mutation_overlap_ID0000015')" 0.0
+"('individuals_ID0000002', 'chr1n-2-3.tar.gz')" 0.0
 "('chr1n.tar.gz', 'mutation_overlap_ID0000019')" 0.0
-"('chr1n-2-3.tar.gz', 'individuals_ID0000002')" 0.0
+"('chr1n-4-5.tar.gz', 'individuals_merge_ID0000005')" 0.0
 "('GBR.txt', 'frequency_ID0000012')" 0.0
 "('AMR.txt', 'mutation_overlap_ID0000013')" 0.0
 "('chr1n.tar.gz', 'mutation_overlap_ID0000011')" 0.0
